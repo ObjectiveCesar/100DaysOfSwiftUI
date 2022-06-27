@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Checkpoint 1'/>
+        <page name='Checkpoint 2'/>
+        <page name='Checkpoint 3'/>
+        <page name='Day 7'/>
+        <page name='Checkpoint 4'/>
+        <page name='Checkpoint 5'/>
+        <page name='Checkpoint 6'/>
+        <page name='Checkpoint 7'/>
+        <page name='Checkpoint 8'/>
+    </pages>
+</playground>
