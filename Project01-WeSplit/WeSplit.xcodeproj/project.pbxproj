@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9210B528286D900800F64058 /* ArcodionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9210B527286D900800F64058 /* ArcodionApp.swift */; };
-		9210B52A286D900800F64058 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9210B529286D900800F64058 /* ContentView.swift */; };
-		9210B52C286D900800F64058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9210B52B286D900800F64058 /* Assets.xcassets */; };
-		9210B52F286D900800F64058 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9210B52E286D900800F64058 /* Preview Assets.xcassets */; };
+		92FCBD6728672AC500F13FBC /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCBD6628672AC500F13FBC /* WeSplitApp.swift */; };
+		92FCBD6928672AC500F13FBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCBD6828672AC500F13FBC /* ContentView.swift */; };
+		92FCBD6B28672AC600F13FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FCBD6A28672AC600F13FBC /* Assets.xcassets */; };
+		92FCBD6E28672AC600F13FBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FCBD6D28672AC600F13FBC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9210B524286D900800F64058 /* Accordion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accordion.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9210B527286D900800F64058 /* ArcodionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcodionApp.swift; sourceTree = "<group>"; };
-		9210B529286D900800F64058 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9210B52B286D900800F64058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9210B52E286D900800F64058 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92FCBD6328672AC500F13FBC /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FCBD6628672AC500F13FBC /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
+		92FCBD6828672AC500F13FBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92FCBD6A28672AC600F13FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92FCBD6D28672AC600F13FBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9210B521286D900800F64058 /* Frameworks */ = {
+		92FCBD6028672AC500F13FBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9210B51B286D900800F64058 = {
+		92FCBD5A28672AC500F13FBC = {
 			isa = PBXGroup;
 			children = (
-				9210B526286D900800F64058 /* Accodion */,
-				9210B525286D900800F64058 /* Products */,
+				92FCBD6528672AC500F13FBC /* WeSplit */,
+				92FCBD6428672AC500F13FBC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9210B525286D900800F64058 /* Products */ = {
+		92FCBD6428672AC500F13FBC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9210B524286D900800F64058 /* Accordion.app */,
+				92FCBD6328672AC500F13FBC /* WeSplit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9210B526286D900800F64058 /* Accodion */ = {
+		92FCBD6528672AC500F13FBC /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
-				9210B527286D900800F64058 /* ArcodionApp.swift */,
-				9210B529286D900800F64058 /* ContentView.swift */,
-				9210B52B286D900800F64058 /* Assets.xcassets */,
-				9210B52D286D900800F64058 /* Preview Content */,
+				92FCBD6628672AC500F13FBC /* WeSplitApp.swift */,
+				92FCBD6828672AC500F13FBC /* ContentView.swift */,
+				92FCBD6A28672AC600F13FBC /* Assets.xcassets */,
+				92FCBD6C28672AC600F13FBC /* Preview Content */,
 			);
-			path = Accodion;
+			path = WeSplit;
 			sourceTree = "<group>";
 		};
-		9210B52D286D900800F64058 /* Preview Content */ = {
+		92FCBD6C28672AC600F13FBC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9210B52E286D900800F64058 /* Preview Assets.xcassets */,
+				92FCBD6D28672AC600F13FBC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9210B523286D900800F64058 /* Accordion */ = {
+		92FCBD6228672AC500F13FBC /* WeSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9210B532286D900800F64058 /* Build configuration list for PBXNativeTarget "Accordion" */;
+			buildConfigurationList = 92FCBD7128672AC600F13FBC /* Build configuration list for PBXNativeTarget "WeSplit" */;
 			buildPhases = (
-				9210B520286D900800F64058 /* Sources */,
-				9210B521286D900800F64058 /* Frameworks */,
-				9210B522286D900800F64058 /* Resources */,
+				92FCBD5F28672AC500F13FBC /* Sources */,
+				92FCBD6028672AC500F13FBC /* Frameworks */,
+				92FCBD6128672AC500F13FBC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Accordion;
-			productName = Arcodion;
-			productReference = 9210B524286D900800F64058 /* Accordion.app */;
+			name = WeSplit;
+			productName = WeSplit;
+			productReference = 92FCBD6328672AC500F13FBC /* WeSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9210B51C286D900800F64058 /* Project object */ = {
+		92FCBD5B28672AC500F13FBC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					9210B523286D900800F64058 = {
+					92FCBD6228672AC500F13FBC = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
 			};
-			buildConfigurationList = 9210B51F286D900800F64058 /* Build configuration list for PBXProject "Accordion" */;
+			buildConfigurationList = 92FCBD5E28672AC500F13FBC /* Build configuration list for PBXProject "WeSplit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 9210B51B286D900800F64058;
-			productRefGroup = 9210B525286D900800F64058 /* Products */;
+			mainGroup = 92FCBD5A28672AC500F13FBC;
+			productRefGroup = 92FCBD6428672AC500F13FBC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9210B523286D900800F64058 /* Accordion */,
+				92FCBD6228672AC500F13FBC /* WeSplit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9210B522286D900800F64058 /* Resources */ = {
+		92FCBD6128672AC500F13FBC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9210B52F286D900800F64058 /* Preview Assets.xcassets in Resources */,
-				9210B52C286D900800F64058 /* Assets.xcassets in Resources */,
+				92FCBD6E28672AC600F13FBC /* Preview Assets.xcassets in Resources */,
+				92FCBD6B28672AC600F13FBC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9210B520286D900800F64058 /* Sources */ = {
+		92FCBD5F28672AC500F13FBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9210B52A286D900800F64058 /* ContentView.swift in Sources */,
-				9210B528286D900800F64058 /* ArcodionApp.swift in Sources */,
+				92FCBD6928672AC500F13FBC /* ContentView.swift in Sources */,
+				92FCBD6728672AC500F13FBC /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9210B530286D900800F64058 /* Debug */ = {
+		92FCBD6F28672AC600F13FBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		9210B531286D900800F64058 /* Release */ = {
+		92FCBD7028672AC600F13FBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,14 +259,14 @@
 			};
 			name = Release;
 		};
-		9210B533286D900800F64058 /* Debug */ = {
+		92FCBD7228672AC600F13FBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Arcodion/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -274,12 +274,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = berlin.lippmann.Arcodion;
+				PRODUCT_BUNDLE_IDENTIFIER = berlin.lippmann.WeSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -287,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		9210B534286D900800F64058 /* Release */ = {
+		92FCBD7328672AC600F13FBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Arcodion/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,12 +303,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = berlin.lippmann.Arcodion;
+				PRODUCT_BUNDLE_IDENTIFIER = berlin.lippmann.WeSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9210B51F286D900800F64058 /* Build configuration list for PBXProject "Accordion" */ = {
+		92FCBD5E28672AC500F13FBC /* Build configuration list for PBXProject "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9210B530286D900800F64058 /* Debug */,
-				9210B531286D900800F64058 /* Release */,
+				92FCBD6F28672AC600F13FBC /* Debug */,
+				92FCBD7028672AC600F13FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9210B532286D900800F64058 /* Build configuration list for PBXNativeTarget "Accordion" */ = {
+		92FCBD7128672AC600F13FBC /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9210B533286D900800F64058 /* Debug */,
-				9210B534286D900800F64058 /* Release */,
+				92FCBD7228672AC600F13FBC /* Debug */,
+				92FCBD7328672AC600F13FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9210B51C286D900800F64058 /* Project object */;
+	rootObject = 92FCBD5B28672AC500F13FBC /* Project object */;
 }

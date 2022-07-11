@@ -1,14 +1,14 @@
 //
-//  ArcodionApp.swift
-//  Arcodion
+//  WeSplitApp.swift
+//  WeSplit
 //
-//  Created by Lippmann, Erik on 30.06.22.
+//  Created by Lippmann, Erik on 25.06.22.
 //
 
 import SwiftUI
 
 @main
-struct ArcodionApp: App {
+struct WeSplitApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
