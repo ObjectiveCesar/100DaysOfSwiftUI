@@ -26,8 +26,11 @@ struct ContentView: View {
         NavigationView {
             Form {
                 Section("Personal") {
-                    if businessExpenses.items.count < 1 {
-                        Text("No expenses, yet. Use the \(Image(systemName: "plus")) to add one.")
+                    if personalExpenses.items.count < 1 {
+                        Text("No expenses, yet. Tap here or the \(Image(systemName: "plus")) to add one.")
+                            .onTapGesture {
+                                showingAddExpense = true
+                            }
                     } else {
                         List {
                             ForEach(personalExpenses.items) { item in
@@ -51,7 +54,10 @@ struct ContentView: View {
 
                 Section("Business") {
                     if businessExpenses.items.count < 1 {
-                        Text("No expenses, yet. Use the \(Image(systemName: "plus")) to add one.")
+                        Text("No expenses, yet. Tap here or the \(Image(systemName: "plus")) to add one.")
+                            .onTapGesture {
+                                showingAddExpense = true
+                            }
                     } else {
                         List {
                             ForEach(businessExpenses.items) { item in
