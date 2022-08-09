@@ -43,6 +43,7 @@
 		9201EF3128A132F900F50722 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		9201EF3328A1343D00F50722 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		9235E03328A250710024DD9F /* HeadlineModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineModifier.swift; sourceTree = "<group>"; };
+		9235E03628A258880024DD9F /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = SOURCE_ROOT; };
 		92680B96289D30AA00528789 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92680B99289D30AA00528789 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		92680B9B289D30AA00528789 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
@@ -123,6 +124,7 @@
 		92680B8D289D30AA00528789 = {
 			isa = PBXGroup;
 			children = (
+				9235E03628A258880024DD9F /* LICENSE.md */,
 				92680B98289D30AA00528789 /* Moonshot */,
 				92680B97289D30AA00528789 /* Products */,
 			);

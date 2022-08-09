@@ -10,7 +10,7 @@ import SwiftUI
 struct GeometryReaderView: View {
     var body: some View {
         GeometryReader { geo in
-            Image("cats-hate-you-and-everyone-else")
+            Image("aldrin")
                 .resizable()
                 .scaledToFit()
                 .frame(width: geo.size.width * 0.8)
