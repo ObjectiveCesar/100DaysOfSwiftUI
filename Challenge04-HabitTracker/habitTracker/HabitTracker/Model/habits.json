@@ -1,0 +1,24 @@
+{
+    [
+        {
+            "name": "Eating",
+            "description": "Well, everybody needs to eat. So let's track every time you eat something. "
+        },
+        {
+            "name": "Drikng water",
+            "description": "Drinking water is very important. Keep track of every time you drink water (beer does not count!). "
+        },
+        {
+            "name": "Sleep at least 8 hours",
+            "description": "A good time sleep regenerates body and mind. Track each time you sleep at least 8 hours."
+        },
+        {
+            "name": "Sports for at least 30 minutes",
+            "description": "Moving your body will keep it strong and healthy. Track each time you do any sport for at least 30 minutes."
+        },
+        {
+            "name": "Reading a book/paper/magazine for at least 10 minutes.",
+            "description": "Reading a book will stimulate your brain and mind. Track each time you are reading a book, a paper or a magazine (physical copies) for at least 10 minutes."
+        }
+    ]
+}
