@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9222117A28FC0C4A00E1C64B /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222117928FC0C4A00E1C64B /* CupcakeCornerApp.swift */; };
-		9222117C28FC0C4A00E1C64B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222117B28FC0C4A00E1C64B /* ContentView.swift */; };
+		9222117C28FC0C4A00E1C64B /* ProjectOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222117B28FC0C4A00E1C64B /* ProjectOverview.swift */; };
 		9222117E28FC0C4B00E1C64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9222117D28FC0C4B00E1C64B /* Assets.xcassets */; };
 		9222118128FC0C4B00E1C64B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9222118028FC0C4B00E1C64B /* Preview Assets.xcassets */; };
 		9222118828FC0CA900E1C64B /* CodablePublishedProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222118728FC0CA900E1C64B /* CodablePublishedProperty.swift */; };
@@ -18,14 +18,14 @@
 		9222119128FC19F300E1C64B /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222119028FC19F300E1C64B /* SwiftUIView.swift */; };
 		9222119328FD83D200E1C64B /* CupcakeCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222119228FD83D200E1C64B /* CupcakeCorner.swift */; };
 		9222119528FD841100E1C64B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222119428FD841100E1C64B /* Order.swift */; };
-		9222119728FD888300E1C64B /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222119628FD888300E1C64B /* AddressView.swift */; };
-		9222119928FD893700E1C64B /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222119828FD893700E1C64B /* CheckoutView.swift */; };
+		9222119728FD888300E1C64B /* AddressForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222119628FD888300E1C64B /* AddressForm.swift */; };
+		9222119928FD893700E1C64B /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222119828FD893700E1C64B /* Checkout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9222117628FC0C4A00E1C64B /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9222117928FC0C4A00E1C64B /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
-		9222117B28FC0C4A00E1C64B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9222117B28FC0C4A00E1C64B /* ProjectOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectOverview.swift; sourceTree = "<group>"; };
 		9222117D28FC0C4B00E1C64B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9222118028FC0C4B00E1C64B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9222118728FC0CA900E1C64B /* CodablePublishedProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodablePublishedProperty.swift; sourceTree = "<group>"; };
@@ -35,8 +35,8 @@
 		9222119028FC19F300E1C64B /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		9222119228FD83D200E1C64B /* CupcakeCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCorner.swift; sourceTree = "<group>"; };
 		9222119428FD841100E1C64B /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		9222119628FD888300E1C64B /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
-		9222119828FD893700E1C64B /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		9222119628FD888300E1C64B /* AddressForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressForm.swift; sourceTree = "<group>"; };
+		9222119828FD893700E1C64B /* Checkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +70,10 @@
 			isa = PBXGroup;
 			children = (
 				9222117928FC0C4A00E1C64B /* CupcakeCornerApp.swift */,
-				9222117B28FC0C4A00E1C64B /* ContentView.swift */,
+				9222117B28FC0C4A00E1C64B /* ProjectOverview.swift */,
 				9222119228FD83D200E1C64B /* CupcakeCorner.swift */,
-				9222119628FD888300E1C64B /* AddressView.swift */,
-				9222119828FD893700E1C64B /* CheckoutView.swift */,
+				9222119628FD888300E1C64B /* AddressForm.swift */,
+				9222119828FD893700E1C64B /* Checkout.swift */,
 				9222119428FD841100E1C64B /* Order.swift */,
 				9222118928FC0CAE00E1C64B /* Preparations */,
 				9222117D28FC0C4B00E1C64B /* Assets.xcassets */,
@@ -173,16 +173,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9222118D28FC157D00E1C64B /* AsyncImages.swift in Sources */,
-				9222119928FD893700E1C64B /* CheckoutView.swift in Sources */,
+				9222119928FD893700E1C64B /* Checkout.swift in Sources */,
 				9222119128FC19F300E1C64B /* SwiftUIView.swift in Sources */,
 				9222118F28FC18F000E1C64B /* PhasedLoading.swift in Sources */,
 				9222119528FD841100E1C64B /* Order.swift in Sources */,
 				9222119328FD83D200E1C64B /* CupcakeCorner.swift in Sources */,
-				9222117C28FC0C4A00E1C64B /* ContentView.swift in Sources */,
+				9222117C28FC0C4A00E1C64B /* ProjectOverview.swift in Sources */,
 				9222117A28FC0C4A00E1C64B /* CupcakeCornerApp.swift in Sources */,
 				9222118B28FC0F9400E1C64B /* LoadingFromItunesAPI.swift in Sources */,
 				9222118828FC0CA900E1C64B /* CodablePublishedProperty.swift in Sources */,
-				9222119728FD888300E1C64B /* AddressView.swift in Sources */,
+				9222119728FD888300E1C64B /* AddressForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

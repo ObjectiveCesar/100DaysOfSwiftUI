@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ProjectOverview: View {
     var body: some View {
         NavigationView {
             List {
@@ -29,14 +29,21 @@ struct ContentView: View {
                             PhasedLoading()
                         }
                     }
+                    .navigationTitle("Preparations")
+                    .navigationBarTitleDisplayMode(.inline)
+                }
+
+                NavigationLink("Cupcake Corner") {
+                    CupcakeCorner()
                 }
             }
+            .navigationTitle("Project 10")
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ProjectOverview_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ProjectOverview()
     }
 }

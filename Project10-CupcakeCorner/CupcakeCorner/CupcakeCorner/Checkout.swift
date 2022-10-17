@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CheckoutView: View {
+struct Checkout: View {
     @ObservedObject var order: Order
 
     @State private var alertTitle = "Thank You!"
@@ -73,10 +73,10 @@ struct CheckoutView: View {
     }
 }
 
-struct CheckoutView_Previews: PreviewProvider {
+struct Checkout_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            CheckoutView(order: Order())
+            Checkout(order: Order())
         }
     }
 }
