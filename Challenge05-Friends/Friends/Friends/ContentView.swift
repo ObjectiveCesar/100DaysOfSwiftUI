@@ -28,7 +28,6 @@ struct ContentView: View {
             }
             .listStyle(.plain)
             .navigationTitle("Friends")
-
         }
         .task {
             guard users.isEmpty else { return }
