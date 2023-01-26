@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92108B85296CB158003F4716 /* InstafilterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92108B84296CB158003F4716 /* InstafilterApp.swift */; };
+		92108B87296CB158003F4716 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92108B86296CB158003F4716 /* ContentView.swift */; };
+		92108B89296CB15A003F4716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92108B88296CB15A003F4716 /* Assets.xcassets */; };
+		92108B8C296CB15A003F4716 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92108B8B296CB15A003F4716 /* Preview Assets.xcassets */; };
+		92108B93296CB18B003F4716 /* PropertyWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92108B92296CB18B003F4716 /* PropertyWrapperView.swift */; };
+		92108BB0296CB3CC003F4716 /* OnChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92108BAF296CB3CC003F4716 /* OnChangeView.swift */; };
+		92108BB2296CB52C003F4716 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92108BB1296CB52C003F4716 /* ConfirmationDialogView.swift */; };
+		92108BB4296CB633003F4716 /* CoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92108BB3296CB633003F4716 /* CoreImageView.swift */; };
+		92108BB6296CC021003F4716 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92108BB5296CC021003F4716 /* ImagePicker.swift */; };
+		92108BB9296CC123003F4716 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92108BB8296CC123003F4716 /* ImagePickerView.swift */; };
+		923DED18297881B9005E1F4C /* ImageSaverPrep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923DED17297881B9005E1F4C /* ImageSaverPrep.swift */; };
+		923DED1A29788399005E1F4C /* Instafilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923DED1929788399005E1F4C /* Instafilter.swift */; };
+		9241C3542981C0BF008874FD /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9241C3532981C0BF008874FD /* ImageSaver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92108B81296CB158003F4716 /* Instafilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instafilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92108B84296CB158003F4716 /* InstafilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterApp.swift; sourceTree = "<group>"; };
+		92108B86296CB158003F4716 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92108B88296CB15A003F4716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92108B8B296CB15A003F4716 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92108B92296CB18B003F4716 /* PropertyWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperView.swift; sourceTree = "<group>"; };
+		92108BAF296CB3CC003F4716 /* OnChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeView.swift; sourceTree = "<group>"; };
+		92108BB1296CB52C003F4716 /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
+		92108BB3296CB633003F4716 /* CoreImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageView.swift; sourceTree = "<group>"; };
+		92108BB5296CC021003F4716 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		92108BB8296CC123003F4716 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		923DED17297881B9005E1F4C /* ImageSaverPrep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaverPrep.swift; sourceTree = "<group>"; };
+		923DED1929788399005E1F4C /* Instafilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instafilter.swift; sourceTree = "<group>"; };
+		9241C3532981C0BF008874FD /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92108B7E296CB158003F4716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92108B78296CB158003F4716 = {
+			isa = PBXGroup;
+			children = (
+				92108B83296CB158003F4716 /* Instafilter */,
+				92108B82296CB158003F4716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92108B82296CB158003F4716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92108B81296CB158003F4716 /* Instafilter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92108B83296CB158003F4716 /* Instafilter */ = {
+			isa = PBXGroup;
+			children = (
+				92108B84296CB158003F4716 /* InstafilterApp.swift */,
+				92108B86296CB158003F4716 /* ContentView.swift */,
+				923DED1929788399005E1F4C /* Instafilter.swift */,
+				9241C3532981C0BF008874FD /* ImageSaver.swift */,
+				92108B94296CB18F003F4716 /* Preparations */,
+				92108B88296CB15A003F4716 /* Assets.xcassets */,
+				92108B8A296CB15A003F4716 /* Preview Content */,
+			);
+			path = Instafilter;
+			sourceTree = "<group>";
+		};
+		92108B8A296CB15A003F4716 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92108B8B296CB15A003F4716 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92108B94296CB18F003F4716 /* Preparations */ = {
+			isa = PBXGroup;
+			children = (
+				92108B92296CB18B003F4716 /* PropertyWrapperView.swift */,
+				92108BAF296CB3CC003F4716 /* OnChangeView.swift */,
+				92108BB1296CB52C003F4716 /* ConfirmationDialogView.swift */,
+				92108BB3296CB633003F4716 /* CoreImageView.swift */,
+				92108BB7296CC025003F4716 /* UIKitWrapper */,
+			);
+			path = Preparations;
+			sourceTree = "<group>";
+		};
+		92108BB7296CC025003F4716 /* UIKitWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				92108BB5296CC021003F4716 /* ImagePicker.swift */,
+				92108BB8296CC123003F4716 /* ImagePickerView.swift */,
+				923DED17297881B9005E1F4C /* ImageSaverPrep.swift */,
+			);
+			path = UIKitWrapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92108B80296CB158003F4716 /* Instafilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92108B8F296CB15A003F4716 /* Build configuration list for PBXNativeTarget "Instafilter" */;
+			buildPhases = (
+				92108B7D296CB158003F4716 /* Sources */,
+				92108B7E296CB158003F4716 /* Frameworks */,
+				92108B7F296CB158003F4716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instafilter;
+			productName = Instafilter;
+			productReference = 92108B81296CB158003F4716 /* Instafilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92108B79296CB158003F4716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					92108B80296CB158003F4716 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 92108B7C296CB158003F4716 /* Build configuration list for PBXProject "Instafilter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92108B78296CB158003F4716;
+			productRefGroup = 92108B82296CB158003F4716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92108B80296CB158003F4716 /* Instafilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92108B7F296CB158003F4716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92108B8C296CB15A003F4716 /* Preview Assets.xcassets in Resources */,
+				92108B89296CB15A003F4716 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92108B7D296CB158003F4716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92108B87296CB158003F4716 /* ContentView.swift in Sources */,
+				92108B85296CB158003F4716 /* InstafilterApp.swift in Sources */,
+				92108BB2296CB52C003F4716 /* ConfirmationDialogView.swift in Sources */,
+				92108BB6296CC021003F4716 /* ImagePicker.swift in Sources */,
+				923DED18297881B9005E1F4C /* ImageSaverPrep.swift in Sources */,
+				92108BB9296CC123003F4716 /* ImagePickerView.swift in Sources */,
+				92108BB4296CB633003F4716 /* CoreImageView.swift in Sources */,
+				9241C3542981C0BF008874FD /* ImageSaver.swift in Sources */,
+				923DED1A29788399005E1F4C /* Instafilter.swift in Sources */,
+				92108B93296CB18B003F4716 /* PropertyWrapperView.swift in Sources */,
+				92108BB0296CB3CC003F4716 /* OnChangeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		92108B8D296CB15A003F4716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92108B8E296CB15A003F4716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92108B90296CB15A003F4716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Instafilter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save the filtered photo.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = berlin.lippmann.Instafilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92108B91296CB15A003F4716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Instafilter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save the filtered photo.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = berlin.lippmann.Instafilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92108B7C296CB158003F4716 /* Build configuration list for PBXProject "Instafilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92108B8D296CB15A003F4716 /* Debug */,
+				92108B8E296CB15A003F4716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92108B8F296CB15A003F4716 /* Build configuration list for PBXNativeTarget "Instafilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92108B90296CB15A003F4716 /* Debug */,
+				92108B91296CB15A003F4716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92108B79296CB158003F4716 /* Project object */;
+}
