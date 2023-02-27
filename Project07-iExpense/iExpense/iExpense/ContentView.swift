@@ -46,6 +46,9 @@ struct ContentView: View {
                                         .foregroundColor(color(for: item.amount))
                                         .fontWeight(.bold)
                                 }
+                                .accessibilityElement()
+                                .accessibilityLabel(item.name + " " + Text(item.amount, format: .currency(code: item.currency.rawValue))
+                                .accessibilityHint("Type " + item.type.rawValue)
                             }
                             .onDelete(perform: removePersonalItem)
                         }

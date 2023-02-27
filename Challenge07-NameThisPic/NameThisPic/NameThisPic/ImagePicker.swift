@@ -1,8 +1,8 @@
 //
 //  ImagePicker.swift
-//  Instafilter
+//  NameThisPic
 //
-//  Created by Lippmann, Erik on 09.01.23.
+//  Created by Lippmann, Erik on 23.02.23.
 //
 
 import Foundation
@@ -11,7 +11,7 @@ import SwiftUI
 
 struct ImagePicker: UIViewControllerRepresentable {
     typealias UIViewControllerType = PHPickerViewController
-
+    
     class Coordinator: NSObject, PHPickerViewControllerDelegate {
         var parent: ImagePicker
 
@@ -29,7 +29,9 @@ struct ImagePicker: UIViewControllerRepresentable {
             // If this has an image we can use, use it
             if provider.canLoadObject(ofClass: UIImage.self) {
                 provider.loadObject(ofClass: UIImage.self) { image, _ in
-                    self.parent.image = image as? UIImage
+                    DispatchQueue.main.async {
+                        self.parent.image = image as? UIImage
+                    }
                 }
             }
         }
